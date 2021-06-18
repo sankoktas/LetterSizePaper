@@ -2,11 +2,8 @@
 This program converts dimensions of a letter from inches to milimeters
 
 public class KFS_LetteSizePaper_Main
-
 {
-
     public static void main (String[] args)
-    
     {
         final double conversion_inch_to_mm = 25.4;
         
@@ -22,5 +19,4 @@ public class KFS_LetteSizePaper_Main
         System.out.print("length: " + length_in_mm);
         System.out.println(" mm");
     }   
-    
 }
